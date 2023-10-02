@@ -1,0 +1,35 @@
+.header {
+    background: var(--cor-bg1);
+}
+
+.header-menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.header-menu a {
+    padding: 10px 10px;
+    color: var(--cor-bg13);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+@media (max-width: 800px) {
+    .header-menu {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+}
